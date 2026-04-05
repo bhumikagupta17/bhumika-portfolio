@@ -313,6 +313,8 @@ dotlottie-player{
 #projects{
     background-color: var(--bg-light);
     text-align: center;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 #projects h2{
     color: var(--dar-text);
@@ -385,6 +387,8 @@ dotlottie-player{
     background-color: var(--ice-blue);
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .contact-container{
     text-align: center;
