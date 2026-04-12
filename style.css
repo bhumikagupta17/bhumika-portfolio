@@ -83,12 +83,12 @@ body{
     color: var(--grey-text);
 }
 #intro-lines{
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 1.5rem;
     color: var(--grey-text);
 }
 .buttons {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .btn {
@@ -114,7 +114,7 @@ body{
     transform: translateY(-3px);
 }
 .icons{
-    margin-top: 8px;
+    margin-top: 2px;
     padding: 20px;
     margin-left: 10px;
     word-spacing: 10px;
