@@ -495,8 +495,7 @@ footer{
         min-height: auto;
     }
     .Navbar {
-        height: auto;
-        padding: 20px;
+        display: none;
     }
     #portfolio {
         font-size: 22px;
@@ -504,22 +503,13 @@ footer{
         padding-left: 0;
         margin-bottom: 15px;
     }
-    .Navbar ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-right: 0;
-    }
-    .Navbar a {
-        font-size: 16px;
-        padding: 8px 12px;
-    }
+
     /* HOME SECTION */
     #home {
         display: flex;
         flex-direction: column; 
         height: auto;
-        padding-top: 100px;
+        padding-top: 40px;
         text-align: center;
     }
     #greeting, #name {
@@ -558,6 +548,23 @@ footer{
         margin-left: 0;
         margin-bottom: 30px;
     }
+    .education {
+    height: auto;
+    padding: 20px 10px;
+    margin-left: 0;
+}
+
+.edu-tile {
+    height: auto; 
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.education h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
     /* SKILLS */
     .skills-grid {
         grid-template-columns: 1fr;
