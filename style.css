@@ -487,3 +487,112 @@ footer{
     text-decoration: none;
     color: var(--grey-text);
 }
+/* --- MOBILE RESPONSIVENESS (Max width 768px) --- */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 5%; 
+        height: auto;
+        min-height: auto;
+    }
+    .Navbar {
+        height: auto;
+        padding: 20px;
+    }
+    #portfolio {
+        font-size: 22px;
+        margin-right: 0;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .Navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-right: 0;
+    }
+    .Navbar a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    /* HOME SECTION */
+    #home {
+        display: flex;
+        flex-direction: column; 
+        height: auto;
+        padding-top: 100px;
+        text-align: center;
+    }
+    #greeting, #name {
+        font-size: 2.5rem;
+    }
+    #small-intro {
+        font-size: 1.2rem;
+    }
+    #intro-lines {
+        font-size: 1.1rem;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .btn {
+        margin-right: 0;
+        width: 100%;
+        max-width: 250px;
+    }
+    dotlottie-player {
+        transform: scale(1.0); 
+        margin-top: 30px;
+    }
+    /* ABOUT ME */
+    #about {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .about-text, .education {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    /* SKILLS */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    .skill-card {
+        height: auto; 
+    }
+    /* PROJECTS */
+    #projects {
+        height: auto;
+    }
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 100%;
+        max-width: 350px;
+    }
+    /* CONTACT */
+    #contact {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .contact-container {
+        padding: 10px;
+    }
+    .contact-header h2 {
+        font-size: 2rem;
+    }
+    /* FOOTER */
+    footer {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+}
